@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+</head>
+<body>
+    <form action="login" method=POST>
+        <label for="login">login</label>
+        <input id="login" name="login" type="text" placeholder="Enter login">
+        <label>password</label>
+        <input id="password" name="password" type="password" placeholder="Enter Password">
+        <input type="submit" value="login">
+    </form>
+    {% if tmp == 0 %}
+    {% elif tmp ==1 %}
+    <p>{{message}}</p>
+    {% endif %}
+</body>
+</html>
+
